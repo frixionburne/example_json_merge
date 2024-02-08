@@ -1,0 +1,20 @@
+{
+    "appName": "Base App",
+    "database": {
+        "username": "",
+        "password": "",
+        "host": {
+            "protocol": "",
+            "domain": "",
+            "port": ""
+        }
+    },
+    "logging": {
+        "level": "info"
+    },
+    "featureFlags": {
+        "f1": false,
+        "f2": true,
+        "f3": false
+    }
+}

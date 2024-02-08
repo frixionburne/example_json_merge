@@ -1,0 +1,15 @@
+{
+    "appName": "Base App Override",
+    "database": {
+        "username": "override",
+        "password": "opassword",
+        "host": {
+            "domain": "some.db.com",
+            "port": "6572"
+        }
+    },
+    "featureFlags": {
+        "f2": false,
+        "f3": true
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "A": "Some value",
+    "B": {
+        "some": "object",
+        "someOther": "field",
+        "nestedObject": {
+            "a": "aaa",
+            "b": "bbb"
+        }
+    },
+    "C": []
+}

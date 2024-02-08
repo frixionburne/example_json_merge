@@ -1,0 +1,42 @@
+{
+    "A": {
+        "A1": {
+            "A11": "should be overridden",
+            "A12": "not overridden"
+        },
+        "A2": [
+            "b",
+            "a",
+            "s",
+            "e"
+        ],
+        "A3": {
+            "A31": {
+                "A311": {
+                    "A3111": "not overridden",
+                    "A3112": "should be overridden",
+                    "A3113": "not overridden",
+                    "A3114": null
+                },
+                "A312": "not overridden",
+                "A313": "should be overridden",
+                "A314": [
+                    1,
+                    2,
+                    3,
+                    {
+                        "shouldBe": "overridden"
+                    }
+                ]
+            },
+            "A32": "not overridden"
+        }
+    },
+    "B": "should be overridden",
+    "C": [
+        "b",
+        "a",
+        "s",
+        "e"
+    ]
+}

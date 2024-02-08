@@ -1,0 +1,36 @@
+{
+    "A": {
+        "A1": {
+            "A11": "is overridden A11",
+            "A12Custom": "new value added A12Custom"
+        },
+        "A2": [
+            "o",
+            "v",
+            "e",
+            "r"
+        ],
+        "A3": {
+            "A31": {
+                "A311": {
+                    "A3112": "is overridden A3112",
+                    "A3113": null
+                },
+                "A313": "is overridden A313",
+                "A314": [
+                    "a",
+                    "b",
+                    "c",
+                    {
+                        "param": "arrays are not merged, fully overridden A314"
+                    }
+                ]
+            }
+        }
+    },
+    "B": "is overridden B",
+    "D": "new value added D",
+    "E": {
+        "E1": "new object added E1"
+    }
+}
